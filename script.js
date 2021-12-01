@@ -35,8 +35,7 @@ const selectElement = (type, name, label, selectOptions) => {
     return `
     <div>
         <label class="${name}">${label}</label>
-        <${type}> name="${name}"
-            ${optionElements}
+        <${type} name="${name}"> ${optionElements}
         </${type}>
         </div>
     `
@@ -78,9 +77,13 @@ const inputEvent = (event) => {
 }
 
 function loadEvent(){
-    const root = document.getElementById("root");
-    root.insertAdjacentHTML("beforeend", formElement);
-    root.insertAdjacentHTML("beforeend", `<div id="inputValueContent"></div>`);  
+    const root = document.getElementById("root");   
+    root.insertAdjacentHTML("beforeend", `<div id="card"></div>`); 
+    document.getElementById("card").insertAdjacentHTML("beforeend", `<h1>BEJELENTKEZÉS</h1>`); 
+    document.getElementById("card").insertAdjacentHTML("beforeend", formElement);
+    document.getElementById("card").insertAdjacentHTML("beforeend", `<div id="inputValueContent"></div>`); 
+ //   root.insertAdjacentHTML("beforeend", formElement);
+ //   root.insertAdjacentHTML("beforeend", `<div id="inputValueContent"></div>`);  
     const form = document.getElementById("form");
     form.addEventListener("submit", formSubmit);
 
