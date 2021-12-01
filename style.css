@@ -56,7 +56,7 @@ body {
 }
 #card {
     position: relative;
-    height: 870px;
+    height: 820px;
     width: 450px;
     left: 50%;
     top: 0;
@@ -110,49 +110,48 @@ text-align: center;
 
 }
 .firstName {  
-    top: 115px;
+    top: 70px;
 }
 input[name = firstName]{
-    top: 175px;
+    top: 130px;
 }
 .profilePicture{
-    top: 255px;
+    top: 210px;
 }
 input[name = profilePicture]{
-    top: 315px;
+    top: 270px;
 }
 .personalEmail{
-    top: 390px;
+    top: 350px;
 }
 input[name = personalEmail]{
-    top: 460px;
+    top: 410px;
 }
 .newsletter{
-    top: 530px;
+    top: 490px;
 }
 input[name = newsletter]{
-    top: 590px;
+    top: 550px;
     border: none;
     box-shadow: none;
 }
 .terms{
-    top: 630px;
+    top: 590px;
 }
 input[name = terms]{
-    top: 690px;
+    top: 650px;
     border: none;
     box-shadow: none;
 }
-
 .where {
-    top: 730px;
+    top: 690px;
 }
 select[name = where]{
-    top: 800px;
+    top: 750px;
     box-shadow: none;
 }
 button{
-    top: 850px;
+    top: 800px;
     vertical-align: middle;
 
 }
