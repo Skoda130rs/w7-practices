@@ -1,0 +1,124 @@
+/** {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    outline: none;
+    text-decoration: none;
+    outline: none;
+    font-family: inherit;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--light-background-color);
+    margin: 0;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a img {
+    border: none;
+}
+
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+textarea {
+    resize: none;
+}
+
+button,
+input,
+textarea,
+select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    border-radius: 0;
+}*/
+
+label{
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(247, 234, 164);
+    width: 300px;
+    height: 25px;
+    left: 50%;
+    transform: translateX(-150px);
+    border: black solid 2px;
+    border-radius: 10px;
+    box-shadow: 5px 3px  black ;
+    text-align: center;
+}
+input{
+    position: absolute;
+    padding: 10px;
+    background-color: rgb(241, 240, 234);
+    width: 300px;
+    height: 25px;
+    left: 50%;
+    transform: translateX(-150px);
+    border: black solid 2px;
+    border-radius: 10px;
+    box-shadow: 5px 3px  black ;
+
+}
+
+.firstName {  
+    top: 50px;
+}
+input[name = firstName]{
+    top: 110px;
+}
+.profilePicture{
+    top: 190px;
+}
+input[name = profilePicture]{
+    top: 250px;
+}
+.personalEmail{
+    top: 330px;
+}
+input[name = personalEmail]{
+    top: 390px;
+}
+.newsletter{
+    top:470px;
+}
+input [name = newsletter]{
+    top: 530px;
+    border: none;
+    box-shadow: none;
+}
+.terms{
+    top: 630px;
+}
+input[name = terms]{
+    top: 690px;
+    border: none;
+    box-shadow: none;
+}
+}
+.where{
+    top: 770px;
+}
+select[name = where]{
+    top: 830px;
+    border: none;
+    box-shadow: none;
+}
